@@ -1,4 +1,4 @@
-%predicción a un instante de muestreo
+%predicción a un instante de muestreoooo
 clear, close all
 clc
 
