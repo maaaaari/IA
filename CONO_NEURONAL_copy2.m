@@ -23,7 +23,7 @@ end
 
 %declaración de la neurona
 
-net=newff([-7 15;-6 16],[30,1],{'tansig','purelin'},'traingd');
+net=newff([-7 15;-6 16],[30,1],{'tansig','purelin'},'trainlm');
 net.trainParam.show=50;
 net.trainParam.epochs=1500;
 net.trainParam.goal=0.00001;
